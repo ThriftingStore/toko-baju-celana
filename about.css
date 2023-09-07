@@ -1,0 +1,32 @@
+.header {
+    background-color: aqua;
+}
+.navbar-brand{
+    color: black !important;
+    font-weight: bold !important;
+}
+h1{
+    margin-left: 30px;
+}
+img{
+    margin-left: 30px;
+    width: 300px;
+    border-radius: 20px;
+}
+p{
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 768px){
+
+    img{
+        margin-left: 30px;
+        width: 250px;
+        height: 100px;
+        border-radius: 12px;
+    }
+
+    p{
+        margin-right: 50px;
+    }
+}

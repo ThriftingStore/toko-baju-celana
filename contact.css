@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('baju\ thrift\ 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: aqua; 
+}
+.header h2 {
+    margin: 0;
+}
+.navbar-brand {
+    color: black !important;
+    font-weight: bold !important;
+}
+.kontak-from {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.kontak-from h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: aquamarine;
+}
+@media (max-width: 768px) {
+    body {
+        background-size: auto; 
+        background-attachment: scroll; 
+    }
+
+    .kontak-form {
+        margin-top: 100px;
+        padding: 20px; 
+    }
+}
